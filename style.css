@@ -1,0 +1,258 @@
+/* GENERAL */
+body {
+    background: #efefef;
+    font-family: 'Crete Round', serif;
+    margin: 0;
+}
+/* BARRE DE NAVIGATION */
+nav {
+    background: #c8ad7f;
+    font-family: 'Crete Round', serif;   
+}
+/* BOUTON DE NAVIGATION */
+nav li a { 
+    display:block;
+    margin-top: 20px;
+    margin: 10px;
+    color: #c8ad7f;
+    font-family: 'Crete Round', serif;
+    width: 100%;
+    border: 1px solid #582900;
+    background-color: #582900;
+    text-align: center;  
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+nav li {
+    margin: 5px;
+}
+/* CHANGE LA COULEUR AU PASSAGE DE LA SOURIS */
+nav li a:hover {
+    color: #582900;
+    background-color: #c8ad7f;
+}
+/* BOUTON DE CONNEXION S'IDENTIFIER */ 
+ .connexion {
+    display: block;
+    margin-top: 30px; 
+    margin-left: 50px;
+    margin-bottom: 30px;
+    padding: 9px;
+    color: #c8ad7f;
+    font-family: 'Crete Round', serif;
+    border: 1px solid #582900;
+    background-color: #582900;
+    text-align: center;
+    border-radius: 5px; 
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+/* CHANGE LA COULEUR DU BOUTON AU PASSAGE DE LA SOURIS */
+.connexion:hover {
+    color: #582900;
+    background-color: #c8ad7f;
+    text-decoration: none;
+}
+/* ICONE DU MENU DE NAVIGATION */
+nav .navbar-toggler {
+    color: #582900;
+}
+/* TITRE DES PAGES */
+h1 {
+    text-align: center;
+    color: #582900;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+/* PIED DE PAGE */
+footer {
+    position: fixed;
+    background: #c8ad7f; 
+    padding: 20px;
+}
+footer a {
+    color: #582900;
+    text-align: right;
+}
+/* CHANGE LA COULEUR AU PASSAGE DE LA SOURIS */
+footer a:hover {
+    color: #efefef;
+}
+footer p {
+    color: #582900;
+    margin-right: 30px;
+}
+footer ul {
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+/* PAGE ACCUEIL */
+/* SOUSTITRE DE LA PAGE */
+h2 {
+    text-align: center;
+    color: #582900;
+}
+/* TEXTE DE PRESENTATION */
+#aPropos {
+    padding-top: 50px;
+}
+article p {
+    margin-bottom: 20px;
+}
+.paragraphe1 {
+    color: #582900;
+    text-align: center;
+    letter-spacing: 1px;
+    justify-content: center;
+    vertical-align: bottom;
+}
+.paragraphe2 {
+    margin-top: 35px;
+    font-size: 20px;
+    font-style: italic;
+}
+/* IMAGE DE LA PAGE ACCUEIL */
+.img-fluid {
+    margin: 0 15px 10px;
+}
+#lienPageContact {
+    position: relative;
+    margin-bottom: 20%;
+}
+/* TITRE SOUS LA PHOTO ACCUEIL */
+.titrePhotoAccueil {
+    color: #582900;
+    font-size: 20px;
+    margin-left:110px;
+    margin-top: 5px;
+}
+/* PAGE PORTFOLIO */ 
+main {
+    width: 300px;
+    margin:auto;
+}
+.diapo {
+    position: relative;
+    overflow: hidden;
+}
+/* FLECHE DE NAVIGATION */
+#nav-droite, #nav-gauche {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #582900;
+    font-size: 2em;
+}
+#nav-droite {
+    right: 1px;
+}
+#nav-gauche {
+    left: 1px;
+}
+/* METTRE IMAGE LES UNES A COTE DES AUTRES */
+.elements {
+    display: flex;
+    transition: 1s linear;
+}
+.element {
+    flex: 1 0 100%;
+    position: relative;
+}
+.element > img {
+    width: 100%;
+}
+/* TESTE SUR LES PHOTOS */
+.caption {
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+h6 {
+    color: #582900;
+    padding-top: 1px;
+}
+
+/* PAGE CONTACT */
+/* FORMULAIRE DE CONTACT GENERAL */
+form {
+    margin-left: 30px;
+}
+/* NOM ET PRENOM */
+form .form1 {
+    color: #582900;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+/* EMAIL */
+form #reply {
+    color: #582900;
+    margin-bottom: 10px;
+    font-size: 20px;  
+}
+/* MESSAGE */ 
+form #message {
+    color: #582900;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+/* PLACEMENT ICONE */
+form #message i {
+    vertical-align: top;
+}
+/* BOUTON POSTER LE MESSAGE */
+form button {
+    display: block;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    color: #c8ad7f;
+    font-family: 'Crete Round', serif;
+    border: 1px solid #582900;
+    background-color: #582900;
+    text-align: center;
+    border-radius: 3px; 
+    font-size: 20px;
+}
+/* CHANGE LA COULEUR DU BOUTON AU PASSAGE DE LA SOURIS */
+form button:hover {
+    color: #582900;
+    background-color: #c8ad7f;
+}
+/* PLACEMENT CARTE */
+form #map-container-google-2 {
+    margin-bottom: 20px;
+}
+/* CHANGER LA COULEUR DES ICONES SOUS LA CARTE */
+form #icone {
+    color: #582900;
+}
+/* PAGE S'IDENTIER */
+/* POUR MAIL ET MOT DE PASSE */
+.font {
+    color: #582900;
+    font-size: 20px;
+    margin-left: 650px;
+    letter-spacing: 1px; 
+    margin-bottom: 15px;
+}
+form li {
+    list-style: none;
+    margin-left: 650px;
+    margin-bottom: 15px;
+}
+/* POUR LE BOUTON S'IDENTIFIER */
+.submit {
+    margin-left: 640px;
+    margin-top: 35px;
+}
+
+
+
+
+
+
+
+

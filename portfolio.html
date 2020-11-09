@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Sculpture bois-portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content=" width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <header>
+        <!-- BARRE DE NAVIGATION -->
+        <nav class="navbar navbar-expand-md navbar-default sticky-top">
+            <a href="index.html"><img src="photos/arbre-en-3d.png" alt="logo_sculpture_bois" width="60px" height="60px" ></a>
+            <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar"><i class="fas fa-bars fa-lg"></i></button>
+            <section class="collapse navbar-collapse justify-content-center" id="myNavbar">
+                <!-- LIEN SUR LES DIFFERENTES PAGES DU SITE -->
+                <ul class="nav nav-pills navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a></li>   
+                </ul>
+            </section>
+            <section>
+                <!-- LIEN POUR LA PAGE DE CONNEXION -->
+                <a href="identifier.html" class="connexion"type="button">S'identifier</a>
+            </section>
+        </nav>
+    </header>
+        <!-- TITRE -->
+        <h1>Portfolio ~ Sculpture bois</h1>
+        <main>
+            <!-- METTRE EN PLACE LES PHOTOS -->
+            <section class="diapo">
+                <section class="elements">
+                    <section class="element active">
+                        <img src="photos/Voilier.jpg" alt="Voilier">
+                        <!-- CAPTION SERT A GERER LES TITRE H6-->
+                        <section class="caption">
+                            <h6>Voilier</h6>
+                        </section>
+                     </section>
+                     <section class="element">
+                        <img src="photos/Poisson.jpg" alt="Poisson">
+                        <section class="caption">
+                            <h6>Poisson</h6>
+                        </section>
+                     </section>
+                     <section class="element">
+                        <img src="photos/Botte.jpg" alt="Botte">
+                        <section class="caption">
+                            <h6>Botte</h6>
+                        </section>
+                     </section>
+                     <section class="element">
+                        <img src="photos/Salamandre.jpg" alt="Salamandre">
+                        <section class="caption">
+                            <h6>Salamandre</h6>
+                        </section>
+                     </section>
+                     <section class="element">
+                        <img src="photos/T%C3%AAte%20de%20vielle.jpg" alt="Tête">
+                        <section class="caption">
+                            <h6>Tête</h6>
+                        </section>
+                     </section>
+                     <section class="element">
+                        <img src="photos/Soldat.jpg" alt="Soldat">
+                        <section class="caption">
+                            <h6>Soldat</h6>
+                        </section>
+                     </section>
+                </section>
+                    <!-- ICONE FLECHE DE NAVIGATION DU DIAPORAMA -->
+                    <i id="nav-gauche" class="fas fa-angle-left"></i>
+                    <i id="nav-droite" class="fas fa-angle-right"></i>
+                    <!-- BALISE AUDIO SOUS LE DIAPO -->
+                    <audio controls src="0100.mp3"></audio>
+            </section>
+        </main>
+        <script src="script.js"></script>        
+    </body>
+        <!-- PIED DE PAGE -->    
+        <footer class="page-footer font-small fixed-bottom"> 
+            <section class="row d-flex align-items-center"> 
+                <section class="col-md-5 col-lg-4 ml-lg-0">
+                    <section class="text-center text-md-left">
+                        <ul class="list-unstyled list-inline" id="reseau">
+                            <!-- ICONE SERVANT DE LIEN POUR LA PAGE FACEBOOK PLACER SUR LA GAUCHE -->
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/" class="btn-floating btn-sm mx-1">
+                                    <i class="facebook fab fa-facebook-f"></i></a>
+                            </li>
+                            <!-- ICONE SERVANT DE LIEN POUR LA PAGE LINKEDIN PLACER SUR LA GAUCHE-->
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/feed/" class="btn-floating btn-sm mx-1">
+                                    <i class="linkedin fab fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+                <!-- LIENS POUR LA PAGE MENTION LEGAL ET LA PAGE CONTACT WEBMESTRE (LIEN VIDE/SANS VRAI PAGE)  -->
+                <section class="col-md-7 col-lg-8">
+                    <p class="text-center text-md-right">© 2020 Droits d'auteur: Evrard Virginie . <a href="#mentionLégal">Mentions légales </a>.<a href="#contactWebmestre"> Contact webmestre <i class="far fa-envelope"></i></a></p>
+                </section>
+            </section>
+        </footer>
+</html>
